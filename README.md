@@ -48,7 +48,7 @@ Host Machine (Windows PC)
 - Brute Force / SSH Alerts (with MITRE ATT&CK tags)
 - File Integrity Monitoring Alerts
 
-*(Add your screenshots in a `screenshots/` folder and link them here)*
+*https://github.com/jamesbradfield476/wazuh-siem-homelab/blob/main/Wazuh_Documentation.pdf*
 
 ## 📚 Key Learnings
 - Deployed and managed a full Wazuh SIEM stack in a virtual environment
