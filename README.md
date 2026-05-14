@@ -15,17 +15,17 @@ To deploy a functional SIEM environment, simulate common cyberattacks, detect an
 
 ```mermaid
 graph TD
-    subgraph "Host Machine (Windows)"
+    subgraph "Host Machine"
         VB[VirtualBox]
     end
 
     subgraph "Wazuh SIEM"
-        Manager[Wazuh Manager <br> (Ubuntu 24.04)] 
+        Manager[Wazuh Manager<br>(Ubuntu 24.04)]
         Manager --- Dashboard[Dashboard + OpenSearch]
     end
 
-    subgraph "Endpoints"
-        LinuxAgent[Linux Agent <br> (Ubuntu 24.04)]
+    subgraph "Monitored Endpoints"
+        LinuxAgent[Linux Agent<br>(Ubuntu 24.04)]
     end
 
     Manager <--> LinuxAgent
