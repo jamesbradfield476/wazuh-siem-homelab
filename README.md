@@ -20,12 +20,12 @@ graph TD
     end
 
     subgraph "Wazuh SIEM"
-        Manager[Wazuh Manager<br>(Ubuntu 24.04)]
+        Manager[Wazuh Manager (Ubuntu 24.04)]
         Manager --- Dashboard[Dashboard + OpenSearch]
     end
 
     subgraph "Monitored Endpoints"
-        LinuxAgent[Linux Agent<br>(Ubuntu 24.04)]
+        LinuxAgent[Linux Agent (Ubuntu 24.04)]
     end
 
     Manager <--> LinuxAgent
